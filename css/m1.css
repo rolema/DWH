@@ -1,0 +1,91 @@
+body{
+	background-image: url(../img/foggy_birds.png);
+	}
+	
+	
+.login {
+	width: 400px;
+	height: 400px;
+	box-shadow: 0px 5px 10px #b5c1c5, 0 0 0 10px #eef5f7 inset;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #FFF;	
+	border-radius: 15px;
+}
+
+#imgagen {
+	top:30px;
+	width: 192px;
+	position: absolute;
+	left:100px;
+	right:100px;
+	
+}
+
+#enter {
+	width:250px;
+	position:absolute;
+	top:50%;
+	left:50px;
+	right:50px;
+	
+	
+}
+
+#boton{
+	position:absolute;
+	width: 192px;
+	top:75%;
+	left:50px;
+	right:50px;
+	}
+
+.login input[type='text']
+{
+	padding: 7px 6px;
+	width: 294px;/*longitud definida*/
+	border: 1px solid #ced5d7;
+	rezise: none; /*este de aqui es para que no se redimenciones el texte area*/
+	box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.login input[type='password']
+{
+	padding: 7px 6px;
+	width: 294px;/*longitud definida*/
+	border: 1px solid #ced5d7;
+	rezise: none;
+	box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.login input[type='submit']
+{
+	border: 1px solid #ced5d7;
+	width: 200px;
+	box-shadow: 0 0 0 3px #eef5f7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weigth: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+}
+
+.login input[type='submit']:hover
+{
+	background: #edfcff;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+}
+
+.login input[type='submit']:active
+{
+	background: #cfe6ef;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+	background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+}

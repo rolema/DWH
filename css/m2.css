@@ -1,0 +1,160 @@
+body
+{
+	width:70%;
+	margin: auto;
+	background-image: url("../img/carbon_fibre.png");
+	font-family: 'Noto Sans', 'sans-serif';
+	overflow: auto;
+}
+
+#pollo{
+	width= 192 px;
+    height= 100 px;
+	}
+
+select{
+	font-family: 'Raleway', sans-serif;
+	}
+
+.content
+{
+	width: 1200px;
+	height: 750px;/*90%*/
+	box-shadow: 0px 5px 10px #b5c1c5, 0 0 0 10px #eef5f7 inset;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #FFF;
+	border-radius: 5px;
+	}
+
+
+.content fieldset
+{
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin: auto;
+	width: 90%;
+	height: 525px;
+	box-shadow: 0px 5px 10px #b5c1c5, 0 0 0 10px #eef5f7 inset;
+	}
+	
+#contenido
+{
+	width: 20%;
+	margin: inherit;
+	height: 100%; /*antes 98*/
+	position: absolute;
+	/*left: 1px;*/
+		
+	}
+#contenido ul, li, a{
+	text-decoration:none;
+	list-style:none;
+	}	
+/*----------------------------------*/	
+#relleno
+{
+	width: 78%; /*Antes 79*/
+	height: 100%;
+	position: absolute;
+	left: 21%;
+	overflow:scroll;
+			}
+	
+#menu_relleno
+{
+	width: 99%;
+	height: 10%;
+	left: 0;
+	right: 0;
+	
+	
+	}	
+#mini_menu
+{
+	width: 20%;
+	height: 20%;
+	left: 0;
+	right: 0;
+	top:inherit;
+	
+	}		
+/*----------------------------------*/		
+		
+ #Boton_Salida
+{
+	position: absolute;
+	left: 80%;
+	top: 70px;
+	}
+.content input[type='submit']
+{
+	border: 1px solid #ced5d7;
+	width: 150px;
+	box-shadow: 0 0 0 3px #eef5f7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weigth: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #E65F61;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+	background: -webkit-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+}
+
+.content input[type='submit']:hover
+{
+	background: #E65F61;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+	background: -webkit-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+}
+
+.content input[type='submit']:active
+{
+	background: #E65F61;/*fallback para navegadores que no soporten degradados*/
+	background: -moz-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+	background: -webkit-linear-gradient(top, #E65F61 0%, #F9C5C5 100%);
+}
+
+/*------------RADIOBUTTON----------*/
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -57px top no-repeat;
+}
+/*----------foother---------*/
+
+#apDiv1 {
+	position: absolute;
+	width:70%
+	height: 5%;
+	top: 100%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+	color: #FFF;
+}
+	
